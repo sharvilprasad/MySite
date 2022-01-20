@@ -1,0 +1,153 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif
+}
+h1{
+  margin: 60px auto 10 auto;
+  font-size: 5.626rem;
+  /**font-family: 'Sacramento', cursive;**/
+  font-family: 'Montez', cursive;
+  color: #66BFBF;
+}
+
+h2{
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #66BFBF;
+}
+ h3{
+   font-family: 'Montserrat', sans-serif;
+   color: #11999E;
+ }
+ a{
+   margin:10px 20px ;
+   color: #11999E;
+   font-family: 'Montserrat', sans-serif;
+   text-decoration: none;
+ }
+ a:hover{
+   color:#FDBE34 ;
+ }
+ p{
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ li{
+   font-family: 'Montserrat', sans-serif;
+ }
+hr{
+  margin: 2rem auto;
+  border-top: 0.5rem dotted ;
+  width: 5rem;
+}
+
+.top-container{
+  background-color: #D3DEDC;
+  position: relative;
+  padding-top: 100px;
+}
+.compimg{
+  width: 40%;
+}
+
+.middle-container{
+  background-color: #DEEDF0;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+
+.bottom-container{
+  padding: 1rem 0 0.02rem 0;
+  background-color: #D3DEDC;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 100px;
+  bottom: 500px;
+}
+
+.profileimg{
+  width: 10%;
+}
+.intro{
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+.skillsimg{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row-skills{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  line-height: 2;
+}
+
+.project{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+.skill-row-project{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.hobby{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-row-hobby{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  text-justify: inter-word;
+  line-height: 2;
+}
+.contacttext{
+  line-height: 2;
+}
+.copyright{
+  font-size: 0.75rem;
+}
+
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+  text-decoration: none;
+}
